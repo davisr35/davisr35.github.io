@@ -1,0 +1,71 @@
+html {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+#topbar {
+	position: fixed;
+	padding: 10px;
+	background-color: pink;
+	width: 100%;
+}
+
+#topbar p:hover {
+	font-family: "Courier New", Courier, monospace;
+	margin: 5%;
+}
+
+#cat {
+	width: 40%;
+	float: left;
+	background-color: deepskyblue;
+	padding: 10px;
+	/*position: relative;*/
+}
+
+#kitten {
+/*	position: absolute;*/
+	background-color: gray;
+/*	bottom: 10px;
+	right:5px;*/
+}
+
+#dog {
+	width: 20%;
+	float: left;
+	background-color: orange;
+	height: 600px;
+}
+
+#bird {
+	background-color: purple;
+	height: 600px;
+	float: right;
+	width: 40%;
+}
+
+/* . bc it is a class, not id (#) */
+.group:after {
+	content: "";
+	display: table;
+	clear:both;
+}
+
+#footer {
+	background-color: brown;
+	color: white;
+	padding: 20px;
+}
+/* fixed, static, absolute */
+
+
+
