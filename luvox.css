@@ -16,6 +16,7 @@
 #one {
     background-image: url("images/sorry2.png");
 	background-size: 100%;
+	background-repeat: no-repeat;
 	margin-bottom: 10%;
 }
 
