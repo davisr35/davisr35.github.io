@@ -1,0 +1,18 @@
+.red-circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+.blue-square {
+    height: 50px;
+    width: 50px;
+    background: blue;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}

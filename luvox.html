@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Luvox</title>
+
+
+	<link rel="stylesheet" type="text/css" href="luvox.css"/>
+
+</head>
+
+
+<body id="one">
+
+<div id="pg1text">
+	The development of this webpage has been delayed by <a href="http://www.accessdata.fda.gov/drugsatfda_docs/label/2011/022033s003lbl.pdf" target="_blank" id="luvoxlink">Luvox CR</a> (fluvoxamine maleate). 
+</div>
+
+<script>
+window.onload = function(){
+var theDelay = 7;
+var timer = setTimeout("showText()",theDelay*500)
+}
+function showText(){
+document.getElementById("delayedText").style.visibility = "visible";
+}
+</script>
+
+
+<div class="arrow" id="delayedText" style="visibility:hidden">
+	<a href="luvox2.html"><div class="arrow" id="learnmore">Click here to learn more &rArr;</div></a>
+</div>
+
+</body>
+</html>

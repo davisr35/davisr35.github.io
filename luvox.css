@@ -1,0 +1,214 @@
+/* page 1 */
+
+.arrow {
+	margin-top: 1in;
+	height: 30px;
+	text-decoration: none;
+	/** margin-left: 50%; **/
+	text-align: center;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+}
+
+/* page 2 */
+
+html {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.navbar {
+	float: top;
+	height: 100px;
+	width: 100%;
+	padding: 10px;
+	background-color: pink;
+}
+
+.nav-gen {
+	font-family: sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.details {
+	margin-top: 10px;
+	display: block;
+	height: 80px;
+	text-align: center;
+	float: left;
+	width: 15%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.manu {
+	margin-top: 10px;
+	display: block;
+	height: 80px;
+	text-align: center;
+	float: left;
+	width: 15%; 
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.curious {
+	margin-top: 10px;
+	display: block;
+	height: 80px;
+	text-align: center;
+	float: left;
+	width: 15%; 
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+a li {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: solid;
+	border-width: .25px;
+	text-decoration: none;
+}
+
+/*
+.navbar {
+	flex: 1 100%;
+	list-style: block;
+}
+.navbar { 
+	position: fixed;
+	width: 100%;
+	height: 150px;
+	border: solid;
+	border-width: .5px;
+	display: inline-block;
+}*/
+
+/*.nav-gen {
+}
+
+.nav1 {
+}
+
+.nav2 {
+}
+
+.nav3 {
+} */
+
+.details, .manu, .curious {
+	flex: 1 100%;
+}
+
+@media all and (min-width: 800px) {
+	.details {
+		order: 1;
+	}
+
+	.manu {
+		order: 2;
+	}
+
+	.curious {
+		order: 3;
+	}
+}
+
+
+/**
+.details:hover .det_about, .det_hist {
+	display: block; 
+	color: black;
+}
+.det_about {	
+	color:transparent;
+}
+.det_hist {
+	color:transparent;
+}
+
+.manu:hover .manu_solvay, .manu_issues {
+	display: block; 
+	color: black;
+} 
+.manu_solvay {
+	color: transparent;
+}
+.manu_issues {
+	color: transparent;
+} 
+
+
+.curious:hover .curious_alts, .curious_feels, .curious_cyborg { 
+	display: block; 
+	color: black;
+	}
+
+.curious_alts {
+	color: transparent;
+}
+
+.curious_feels {
+	color: transparent;
+}
+
+.curious_cyborg {
+	color: transparent;
+} 
+
+
+a:hover {
+	color: red;	
+	text-decoration: none;
+}
+
+a:visited {
+    color: black;
+   	text-decoration: none;
+
+}
+
+a:active {
+    color: gray;
+   	text-decoration: none;
+}
+
+a{
+	color:black;
+   	text-decoration: none;
+}
+
+
+
+#one {
+    background-image: url("images/sorry2.png");
+	background-size: 100%;
+	margin-bottom: 10%;
+}
+
+#luvoxlink {
+	text-decoration: underline;
+}
+
+#pg1text {
+	margin-top: 4.6in;
+	font-family: Times, Times New Roman, serif; 
+	text-align: center;
+	font-size: 1em;
+}
+
