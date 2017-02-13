@@ -12,6 +12,24 @@
 	font-family: sans-serif;
 }
 
+
+#one {
+    background-image: url("images/sorry2.png");
+	background-size: 100%;
+	margin-bottom: 10%;
+}
+
+#luvoxlink {
+	text-decoration: underline;
+}
+
+#pg1text {
+	margin-top: 4.6in;
+	font-family: Times, Times New Roman, serif; 
+	text-align: center;
+	font-size: 1em;
+}
+
 /* page 2 */
 
 html {
@@ -170,7 +188,7 @@ a li {
 .curious_cyborg {
 	color: transparent;
 } 
-
+*/
 
 a:hover {
 	color: red;	
@@ -195,20 +213,5 @@ a{
 
 
 
-#one {
-    background-image: url("images/sorry2.png");
-	background-size: 100%;
-	margin-bottom: 10%;
-}
 
-#luvoxlink {
-	text-decoration: underline;
-}
-
-#pg1text {
-	margin-top: 4.6in;
-	font-family: Times, Times New Roman, serif; 
-	text-align: center;
-	font-size: 1em;
-}
 
