@@ -1,3 +1,6 @@
+
+
+
 /* page 1 */
 
 .arrow {
@@ -31,72 +34,216 @@
 	font-size: 1em;
 }
 
-/* page 2 */
+/*.container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+} 
 
-html {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+.sidebar2 {
+	height: 600px;}
+
+.leftbox2 {flex: left;}
+
+.topimage {
+	position: sticky;
+	bottom: 90%;
+	max-width: 100%;
+	top: 
 }
 
-*, *:before, *:after {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+.rightbox2 { 
+	position: fixed;
+	bottom: 90%;
+	top:1.5%;
+	padding: 2%;
+	display: inline;
+	z-index: 2;
+
 }
 
-.navbar {
-	float: top;
-	height: 100px;
-	width: 100%;
-	padding: 10px;
-	background-color: pink;
+.container2, .rightbox2 { flex:1 100%; /* tell all items to be 100% width *//*
+}	
+
+@media all and (min-width: 800px) {
+	.sidebar2 {flex: 1;}
+	.druginfo {flex: 3 0px;/* flex:; 2 means the main-content div will be 2 flex columns wide*//*}
+	.leftbox2 {order: 1; flex: 2.5 0px;/*order:1 means this item will appear first at screen sizes larger than 800px *//*}
+	.druginfo {order: 1;}
+}
+*/
+
+.sidebar2 {
 }
 
-.nav-gen {
-	font-family: sans-serif;
-	font-size: 12px;
+.leftbox2 {
+
+}
+
+.topimage {
+	position: sticky;
+	bottom: 90%;
+	max-width: 100%;
+	top: 
+}
+
+.rightbox2 { 
+	position: fixed;
+	bottom: 90%;
+	top:1.5%;
+	padding: 2%;
+	display: inline;
+	z-index: 2;
+
+}
+
+.rightbox2 { flex:1 100%; /* tell all items to be 100% width */
+}	
+
+
+
+.bodytext, .further2 {
+	font-family: 'Merriweather', serif;
+    font-size: .6em;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.boxme {
+	background-color: white;
+	outline: 2px solid red;
+	outline-offset: 1px;
+	display: block;
+	padding: 1.5%;
+	top: -3.5%;
+	position:absolute;
+	left: 40%;
+	top: 2.5%;
+	max-width: 40%;
+
+}
+
+.title2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+
+#warning {
+	color:red;
+}
+
+
+.h2_2 { 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: thin;
+	font-size: 8pt;
+	letter-spacing: .75px;
+	line-height: 15%;
 	text-transform: uppercase;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+.h2_2nomargin { 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: thin;
+	font-size: 8pt;
+	letter-spacing: .75px;
+	margin-top: 1pt;
+	margin-bottom: -2.5pt;
+}
+
+li ul {
 	text-decoration: none;
 }
 
+.containerX {
+	overflow: scroll;
+	border: solid 1px;
+	max-height: 700px;
+
+}
+
+.druginfo {
+	background-color: #DCDCDC;
+	margin-left: 3%; 
+	margin-right: 3%; 
+
+}
+
+.source_3 {
+	font-family: 'Merriweather', serif;
+	font-size: .5em;
+	color: #FF4500;
+}
+
+
+/* page 3 */ 
+
+
+
+
+/* nav bar stuff
+.navbar {
+  width: 17.5%;
+  height: 100%;
+  border: .5px solid;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+/*  padding: 1em;
+*/ /* list-style: none;
+}
+
+.navgen {
+	width: 15%;
+	padding: 2.5%;
+	text-align: left;
+}
+
+.details, .manu, .curious { 
+	margin-top: 10%;
+	height: 10%;
+	text-align: left;
+} */
+
+/*
 .details {
-	margin-top: 10px;
 	display: block;
 	height: 80px;
-	text-align: center;
-	float: left;
-	width: 15%;
-	padding-left: 15px;
-	padding-right: 15px;
+	text-align: left;
+	float: right;
+	width: 10%;
+	margin-top: 15%;
+	margin: 15%;
 }
 
 .manu {
-	margin-top: 10px;
 	display: block;
 	height: 80px;
-	text-align: center;
-	float: left;
-	width: 15%; 
-	padding-left: 15px;
-	padding-right: 15px;
+	text-align: left;
+	float: right;
+	width: 10%; 
+	margin-top: 15%;
+	margin: 15%;
 }
 
 .curious {
-	margin-top: 10px;
 	display: block;
 	height: 80px;
-	text-align: center;
-	float: left;
-	width: 15%; 
-	padding-left: 15px;
-	padding-right: 15px;
-}
+	text-align: left;
+	float: right;
+	width: 10%; 
+	margin-top: 15%;
+	margin: 15%;
+}*/
 
 ul {
 	list-style: none;
 }
 
 a li {
-	display: block;
 	margin: 0px;
 	padding: 0px;
 	border: solid;
@@ -130,9 +277,7 @@ a li {
 .nav3 {
 } */
 
-.details, .manu, .curious {
-	flex: 1 100%;
-}
+
 
 @media all and (min-width: 800px) {
 	.details {
@@ -189,7 +334,24 @@ a li {
 .curious_cyborg {
 	color: transparent;
 } 
+
+.resultContainer .viewThisResult {
+    display: none;
+}
+.resultContainer:hover .viewThisResult {
+    display: inline;
+}
+
+
+
 */
+
+
+.source_3 {
+	font-family: 'Merriweather', serif;
+	font-size: .5em;
+	color: #FF4500;	
+}
 
 a:hover {
 	color: red;	
@@ -207,12 +369,72 @@ a:active {
    	text-decoration: none;
 }
 
-a{
+a {
 	color:black;
    	text-decoration: none;
 }
 
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+.space {
+	margin-top: 2.5px;
+}
+
+.space2 {
+	margin-top: 7.5px;
+}
 
 
 
+.title_p3 {
+	position: absolute;
+	bottom: 92.5%;
+	left: 76%;
+	z-index: 4;
+	display: inline;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 1px;}
+
+.topimage_p3 {
+	position: fixed;
+	bottom: 90%;
+	max-width: 100%;
+
+}
+
+/* page 2 
+
+html {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+/*.navbar {
+	float: right;
+	height: 100%
+	width: 10%
+	background-color: gray;
+}
+
+.nav-gen {
+	font-family: sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+} 
+*/
+
+.source_3 a {
+	color:red;
+}
 

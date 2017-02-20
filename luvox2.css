@@ -1,0 +1,140 @@
+body {}
+.container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#h2_2 { 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: thin;
+	font-size: ..8em;
+	letter-spacing: .75px;
+	line-height: 0%;
+	color: red;
+	text-decoration: none;
+}
+
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: ..8em;
+    letter-spacing: .5px;
+    line-height: 125%;
+}
+
+
+
+.bodytext {
+	margin-top: 2.5px;
+	font-family: 'Merriweather', serif;
+    display: block;
+    font-size: 7pt;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+#title2 {
+	font-family: 'Merriweather', serif;
+	font-size:13.5pt;
+	font-weight: bold;
+	padding: 2%;
+	margin-left: 3%; 
+	margin-right: 3%;
+}
+
+/*.warning, #title2 { 
+    
+	margin-left: 3%; 
+	margin-right: 3%;  
+}*/
+
+.warning {
+	margin-bottom: 20px;
+	background-color: white;
+	border: .25px solid gray;
+	padding: 2.5%;
+	margin-left: 5%;
+	margin-right: 2.5%; 
+	margin-top: 100px;
+}
+/* make sure to follow hierarchy in css coding (e.g. begin with classes and use id's last) */	
+.sidebar2 {
+	height: 600px;
+}
+
+.druginfo {
+	background-color: #DCDCDC;
+	height: 700px;
+	padding: 2%;
+	margin-top: 3%;
+	margin-left: 3%; 
+	margin-right: 3%; 
+	border: solid .25px;
+}
+
+/* .druginfo:after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  background: red;
+  z-index: -1;
+} */
+
+.leftbox2 {
+	flex: left;
+	/* padding-bottom: 40px;
+	padding-top: 40px;
+	padding-right: 40px; */
+}
+
+.rightbox2 {
+	flex: right;
+	padding: 2%;
+}
+/* tell all items to be 100% width */
+.container2 {
+	flex:1 100%;
+}	
+
+
+@media all and (min-width: 800px) {
+
+	.sidebar2 {
+		flex: 1;
+	}
+
+	.druginfo {
+		/* flex:; 2 means the main-content div will be 2 flex columns wide*/
+		flex: 3 0px;
+	}
+
+	.leftbox2 {
+		/* order:1 means that this item will appear first at screen sizes larger than 800px */
+		order: 1;
+		flex: 2.5 0px;
+	}
+
+	.druginfo {
+		order: 1;
+	}
+
+	.rightbox2 {
+		order: 3;
+		background-color: gray;
+		flex: 2 0px;
+
+	}
+
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+
+

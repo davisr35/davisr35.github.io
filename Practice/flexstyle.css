@@ -1,0 +1,82 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+h1 {
+	font-size: small;
+    font-family: 'Cousine', monospace;
+}
+
+p, ol, ul {
+    font-family: 'Crimson Text', serif;
+}
+
+/* make sure to follow hierarchy in css coding (e.g. begin with classes and use id's last) */
+.sidebar-generic {
+	background-color: orange;
+	height: 600px;
+}
+	
+.main {
+	background-color: darkblue;
+	height: 600px;
+}
+
+.sidebar1 {
+	background-color: hotpink;
+	size: 20%;
+}
+
+.sidebar2 {
+	background-color: maroon;
+}
+
+.footer {
+	background-color: green;
+}
+
+
+/* tell all items to be 100% width */
+.header, .main, .footer, .sidebar-generic {
+	flex:1 100%;
+}	
+
+
+@media all and (min-width: 800px) {
+	
+	.sidebar-generic {
+		/* generic class written so that sidebars share a line */
+		flex: 1 auto;
+		/* flex:; 1 means that sidebars will be 1 flex column wide*/
+	}
+	
+	.main {
+		/* flex:; 2 means the main-content div will be 2 flex columns wide*/
+		flex: 5 0px;
+		background-color: skyblue;
+	}
+
+	.sidebar1 {
+		/* order:1 means that this item will appear first at screen sizes larger than 800px */
+		order: 1;
+		background-color: pink;
+	}
+
+	.main {
+		order: 2;
+	}
+
+	.sidebar2 {
+		order: 3;
+		background-color: gray;
+	}
+
+	.footer {
+		order:4;
+		background-color: red;
+	}
+}
+
+
