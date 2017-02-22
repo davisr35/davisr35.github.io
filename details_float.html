@@ -9,6 +9,7 @@
 <body>
 
 <style media="screen" type="text/css">
+
 .h2_22 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: thin;
@@ -110,14 +111,16 @@ li ul {
 
 .druginfo {
 	position: relative;
+	float: bottom;
 	background-color: #DCDCDC;
 	right: 3%;
 	overflow: scroll;
 	border: solid 1px;
 	max-height: 400px;
-	margin-top: 35%;
 	width: 100%;
 	padding-right: 3%;
+	bottom: 0;
+	display: inline-block;
 }
 
 .nav_p2 {
@@ -137,13 +140,36 @@ li ul {
 	max-width: 55%;
 	left: 18%;
 	padding: 2.5%;
+	max-height: 30%;
+	margin-top: 2%;
 
 }
 
+	#topnav ul {
+		list-style: none;
+	}
+
+	.navigation-list li {
+		display: inline-block;
+		padding-left:75px;
+		font-size: 3em;
+		font-family: 'Roboto', sans-serif;
+		margin-top: -.60%;
+		position: static;
+	}
+
 </style>
 
-<div><img src="images/top_1red.png" class="topimage"></div>
-	<div class="nav_p2" class="sidebar2"> potential experiences</div>
+<div>
+<nav id="topnav">
+	<ul class="navigation-list" class="h2_2">
+		<li id="nav-experience" id="nav-experience1"><a href="">&times;</a></li>
+		<li id="nav-how" id="nav-how1"><a href="">&times;</a></li>
+		<li id="nav-concerns" id="nav-concerns1"><a href="">&times;</a></li>
+	</ul>
+</div>
+
+<div class="nav_p2" class="sidebar2"> potential experiences</div>
 
 <div class="container2">
 	<!-- 1 row -->

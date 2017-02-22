@@ -6,10 +6,131 @@
 
 	<link rel="stylesheet" type="text/css" href="luvox.css"/>
 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+
+
+
+<style type="text/css">
+
+body {
+	text-align: center;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: red;
+	font-size: 1em;
+}
+
+.titlex2 {
+	font-size: 3.5em;
+	font-family: 'Merriweather', serif;
+	padding-top: 15%;
+}
+
+#topnav_0 ul {
+		list-style: none;
+		margin-left: -150px;
+		text-align: center;		
+		margin-top: 7.5%;
+	}
+
+.navigation-list_0 li {
+		display: inline-block;
+		padding-left:130px;
+		font-size: 2em;
+		font-family: 'Roboto', sans-serif;
+		position: static;
+	}
+
+#luvoxlink {
+	text-decoration: underline;
+}
+
+#pg1text {
+	margin-top: 4.6in;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	font-size: .85em;
+	margin-top: -10%;
+}
+
+.arrow {
+	padding-top: 9.5%;
+	height: 30px;
+	text-decoration: none;
+	/** margin-left: 50%; **/
+	text-align: center;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+	$(document).ready(function() {
+
+		$('#nav-experience').mouseenter(function() { 
+			$('#nav-experience > a').html("experience");
+		});
+		$('#nav-experience').mouseleave(function() {
+			$('#nav-experience > a').html("&times;")
+		});
+
+	})
+
+		$(document).ready(function() {
+
+		$('#nav-how').mouseenter(function() { 
+			$('#nav-how > a').html("how");
+		});
+		$('#nav-how').mouseleave(function() {
+			$('#nav-how > a').html("&times;")
+		});
+
+	})
+
+			$(document).ready(function() {
+
+		$('#nav-concerns').mouseenter(function() { 
+			$('#nav-concerns > a').html("concerns");
+		});
+		$('#nav-concerns').mouseleave(function() {
+			$('#nav-concerns > a').html("&times;")
+		});
+
+	})
+
+	</script>
+
 </head>
 
+<body>
 
-<body id="one">
+<div class="titlex2">
+	Sorry for the inconvenience.
+</div>
+
+<div>
+<nav id="topnav_0">
+	<ul class="navigation-list_0" class="h2_2">
+		<li id="nav-experience" id="nav-experience1"><a href="https://davisr35.github.io/details_float.html">&times;</a></li>
+		<li id="nav-how" id="nav-how1"><a href="">&times;</a></li>
+		<li id="nav-concerns" id="nav-concerns1"><a href="">&times;</a></li>
+	</ul>
+</div>
+
+
 
 <div id="pg1text">
 	The development of this webpage has been delayed by <a href="http://www.accessdata.fda.gov/drugsatfda_docs/label/2011/022033s003lbl.pdf" target="_blank" id="luvoxlink">Luvox CR</a> (fluvoxamine maleate). 

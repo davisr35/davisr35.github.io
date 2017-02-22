@@ -1,38 +1,22 @@
+a:hover {
+	color: yellow;	
+	text-decoration: none;
+}
 
+/*a:visited {
+    color: red;
+   	text-decoration: none;
+}*/
+
+a {
+	color:red;
+   	text-decoration: none;
+}
 
 
 /* page 1 */
 
-.arrow {
-	margin-top: 1in;
-	height: 30px;
-	text-decoration: none;
-	/** margin-left: 50%; **/
-	text-align: center;
-	font-size: .75em;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-family: sans-serif;
-}
 
-
-#one {
-    background-image: url("images/sorry2.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	margin-bottom: 10%;
-}
-
-#luvoxlink {
-	text-decoration: underline;
-}
-
-#pg1text {
-	margin-top: 4.6in;
-	font-family: Times, Times New Roman, serif; 
-	text-align: center;
-	font-size: 1em;
-}
 
 /*.container2 {
 	display: flex;
@@ -178,6 +162,7 @@ li ul {
 }
 
 
+
 /* page 3 */ 
 
 
@@ -251,108 +236,12 @@ a li {
 	text-decoration: none;
 }
 
-/*
-.navbar {
-	flex: 1 100%;
-	list-style: block;
-}
-.navbar { 
-	position: fixed;
-	width: 100%;
-	height: 150px;
-	border: solid;
-	border-width: .5px;
-	display: inline-block;
-}*/
-
-/*.nav-gen {
-}
-
-.nav1 {
-}
-
-.nav2 {
-}
-
-.nav3 {
-} */
-
-
-
-@media all and (min-width: 800px) {
-	.details {
-		order: 1;
-	}
-
-	.manu {
-		order: 2;
-	}
-
-	.curious {
-		order: 3;
-	}
-}
-
-
-/**
-.details:hover .det_about, .det_hist {
-	display: block; 
-	color: black;
-}
-.det_about {	
-	color:transparent;
-}
-.det_hist {
-	color:transparent;
-}
-
-.manu:hover .manu_solvay, .manu_issues {
-	display: block; 
-	color: black;
-} 
-.manu_solvay {
-	color: transparent;
-}
-.manu_issues {
-	color: transparent;
-} 
-
-
-.curious:hover .curious_alts, .curious_feels, .curious_cyborg { 
-	display: block; 
-	color: black;
-	}
-
-.curious_alts {
-	color: transparent;
-}
-
-.curious_feels {
-	color: transparent;
-}
-
-.curious_cyborg {
-	color: transparent;
-} 
-
-.resultContainer .viewThisResult {
-    display: none;
-}
-.resultContainer:hover .viewThisResult {
-    display: inline;
-}
-
-
-
-*/
-
-
 .source_3 {
 	font-family: 'Merriweather', serif;
 	font-size: .5em;
 	color: #FF4500;	
 }
-
+/*
 a:hover {
 	color: red;	
 	text-decoration: none;
@@ -372,7 +261,7 @@ a:active {
 a {
 	color:black;
    	text-decoration: none;
-}
+}*/
 
 @font-face {
   font-family: 'Montserrat', sans-serif;
