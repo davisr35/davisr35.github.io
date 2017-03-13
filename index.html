@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-	color: red;
+	color: purple;
 	font-size: 1em;
 }
 
@@ -88,6 +88,11 @@ a:hover {
 		});
 
 	})
+
+		$("#nav-experience").click(function() {
+  	window.location = $(this).find("a").attr("href"); 
+  	return false;
+	});
 
 		$(document).ready(function() {
 
