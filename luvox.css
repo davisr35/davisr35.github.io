@@ -1,23 +1,88 @@
+a {
+		font-size: 1em;
+		text-decoration: none;
+}
+
 a:hover {
-	color: red;	
+	color: purple;
 	text-decoration: none;
-	font-size: 1em;
 }
 
 a:visited {
-    color: red;
    	text-decoration: none;
 }
 
 a:active { 
 	color: purple;
 }
-
+b {
+	text-decoration: none;
+}
+b, a {
+	color: grey; 
+	text-decoration: none;
+}
 a {
 	color:red;
    	text-decoration: none;
 }
 
+u {
+	text-decoration: none;
+}
+
+
+.title_p3{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
+.titlex2 {
+	font-size: 3.5em;
+	font-family: 'Merriweather', serif;
+	padding-top: 15%;
+}
+
+#topnav_0 ul {
+		list-style: none;
+		margin-left: -150px;
+		text-align: center;		
+		margin-top: 7.5%;
+	}
+
+.navigation-list_0 li {
+		display: inline-block;
+		padding-left:130px;
+		font-size: 2em;
+		font-family: 'Roboto', sans-serif;
+		position: static;
+	}
+
+#luvoxlink {
+	text-decoration: underline;
+}
+
+#pg1text {
+	margin-top: 4.6in;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	font-size: .85em;
+	margin-top: -10%;
+}
+
+.arrow {
+	padding-top: 9.5%;
+	height: 30px;
+	text-decoration: none;
+	/** margin-left: 50%; **/
+	text-align: center;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+}
 
 
 #topnav ul {
@@ -245,6 +310,289 @@ a {
 	max-height: 32%;
 }
 
+
+
+
+.font {
+	color: #D3D3D3;
+	text-decoration: none;
+}
+b:hover {
+	color: purple;
+}
+
+b + a{
+	color: red;
+}
+
+a:hover{
+	color: purple;
+
+}
+
+#suicide {
+	position: fixed;
+}
+
+.h2_22 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: thin;
+	font-size: 8pt;
+	letter-spacing: .75px;
+	text-transform: uppercase;}
+
+.sidebar2 {
+}
+
+.leftbox2 {
+
+}
+
+.topimage {
+	position: fixed;
+	bottom: 90%;
+	max-width: 100%;
+	top: ;
+}
+
+.rightbox2 { 
+	position: fixed;
+	bottom: 90%;
+	top:1.5%;
+	padding: 2%;
+	display: inline;
+	z-index: 2;
+
+}
+
+.rightbox2 { flex:1 100%; /* tell all items to be 100% width */
+}	
+
+
+
+.bodytext, .further2 {
+	font-family: 'Merriweather', serif;
+    font-size: .6em;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+
+.title2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+
+#warning {
+	color:red;
+}
+
+
+
+
+.container2 {
+	position: absolute;
+	max-height: 600px;
+	max-width: 55%;
+	left: 20%;
+	top: 5%;
+}
+
+.druginfo {
+	position: relative;
+	background-color: #DCDCDC;
+	right: 3%;
+	overflow: scroll;
+	border: solid 1px;
+	max-height: 350px;
+	width: 100%;
+	padding-right: 3%;
+	bottom: 0;
+	display: inline-block;
+	margin-top: 40%;
+}
+
+.nav_p2 {
+	position: fixed;
+	bottom: 92.5%;
+	left: 58%;
+	z-index: 4;
+	display: inline;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
+#suicide {
+	position: fixed;
+	max-width: 52%;
+	left: 20.5%;
+	padding: 2.5%;
+	max-height: 32%;
+}
+
+#topnav ul {
+	list-style: none;
+}
+
+.navigation-list li {
+		display: inline-block;
+		padding-left:75px;
+		font-size: 2em;
+		font-family: 'Roboto', sans-serif;
+		position: static;
+}
+
+.font {
+	color: #D3D3D3;
+	text-decoration: none;
+}
+b:hover {
+	color: purple;
+}
+
+b + a{
+	color: red;
+}
+
+a:hover{
+	color: purple;
+
+}
+
+#suicide {
+	position: fixed;
+}
+
+.h2_22 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: thin;
+	font-size: 8pt;
+	letter-spacing: .75px;
+	text-transform: uppercase;}
+
+.sidebar2 {
+}
+
+.leftbox2 {
+
+}
+
+.topimage {
+	position: fixed;
+	bottom: 90%;
+	max-width: 100%;
+	top: ;
+}
+
+.rightbox2 { 
+	position: fixed;
+	bottom: 90%;
+	top:1.5%;
+	padding: 2%;
+	display: inline;
+	z-index: 2;
+
+}
+
+.rightbox2 { flex:1 100%; /* tell all items to be 100% width */
+}	
+
+
+
+.bodytext, .further2 {
+	font-family: 'Merriweather', serif;
+    font-size: .6em;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+
+.title2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+
+#warning {
+	color:red;
+}
+
+
+.h2_2 { 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: thin;
+	font-size: 8pt;
+	letter-spacing: .75px;
+	line-height: 15%;
+	text-transform: uppercase;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+.h2_2nomargin { 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: thin;
+	font-size: 8pt;
+	letter-spacing: .75px;
+	margin-top: 1pt;
+	margin-bottom: -2.5pt;
+}
+
+
+.container2 {
+	position: absolute;
+	max-height: 600px;
+	max-width: 55%;
+	left: 20%;
+	top: 5%;
+}
+
+.druginfo {
+	position: relative;
+	background-color: #DCDCDC;
+	right: 3%;
+	overflow: scroll;
+	border: solid 1px;
+	max-height: 350px;
+	width: 100%;
+	padding-right: 3%;
+	bottom: 0;
+	display: inline-block;
+	margin-top: 40%;
+}
+
+.nav_p2 {
+	position: fixed;
+	bottom: 92.5%;
+	left: 58%;
+	z-index: 4;
+	display: inline;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
+#suicide {
+	position: fixed;
+	max-width: 52%;
+	left: 20.5%;
+	padding: 2.5%;
+	max-height: 32%;
+}
+
+#topnav ul {
+	list-style: none;
+}
+
+.navigation-list li {
+		display: inline-block;
+		padding-left:75px;
+		font-size: 2em;
+		font-family: 'Roboto', sans-serif;
+		position: static;
+}
 
 /*.container2 {
 	display: flex;
@@ -554,4 +902,11 @@ html {
 .source_3 a {
 	color:red;
 }
+
+
+.concerns {
+	background-color: black;
+}
+
+
 
